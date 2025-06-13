@@ -20,7 +20,7 @@ jobs:
 
     - name: Build Docker Image 
       run: |
-        docker build -t ielomari/Node-JS-app:latest
+        docker build -t ielomari/Node-JS-app:latest .
 
     - name: Push Docker Image 
       run: |
